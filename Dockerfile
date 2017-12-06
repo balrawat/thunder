@@ -20,3 +20,4 @@ RUN pacman -Syy && \
     rm -r /var/lib/pacman/sync/*
 
 CMD ["/init"]
+
